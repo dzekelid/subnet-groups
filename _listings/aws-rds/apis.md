@@ -11,11 +11,55 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Subnet Groups
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/subnet-groups/master/_listings/aws-rds/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS RDS API - Create D B Subnet Group
+  x-api-slug: actioncreatedbsubnetgroup-get
+  description: Creates a new DB subnet group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subnet-groups/master/_listings/aws-rds/actioncreatedbsubnetgroup-get-openapi.md
+- name: AWS RDS API - Delete D B Subnet Group
+  x-api-slug: actiondeletedbsubnetgroup-get
+  description: Deletes a DB subnet group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subnet-groups/master/_listings/aws-rds/actiondeletedbsubnetgroup-get-openapi.md
+- name: AWS RDS API - Describe D B Subnet Groups
+  x-api-slug: actiondescribedbsubnetgroups-get
+  description: Returns a list of DBSubnetGroup descriptions.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subnet-groups/master/_listings/aws-rds/actiondescribedbsubnetgroups-get-openapi.md
+- name: AWS RDS API - Modify D B Subnet Group
+  x-api-slug: actionmodifydbsubnetgroup-get
+  description: Modifies an existing DB subnet group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subnet-groups/master/_listings/aws-rds/actionmodifydbsubnetgroup-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.polly.api.gallery.streamdata.io

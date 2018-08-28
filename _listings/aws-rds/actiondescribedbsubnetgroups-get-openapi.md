@@ -1,9 +1,11 @@
+---
 swagger: "2.0"
 x-collection-name: AWS RDS
-x-complete: 1
+x-complete: 0
 info:
-  title: AWS RDS API
+  title: Amazon RDS API Describe D B Subnet Groups
   version: 1.0.0
+  description: Returns a list of DBSubnetGroup descriptions.
 schemes:
 - http
 produces:
@@ -84,27 +86,17 @@ paths:
           description: OK
       tags:
       - Subnet Groups
-  /?Action=ModifyDBSubnetGroup:
-    get:
-      summary: Modify D B Subnet Group
-      description: Modifies an existing DB subnet group.
-      operationId: modifydbsubnetgroup
-      x-api-path-slug: actionmodifydbsubnetgroup-get
-      parameters:
-      - in: query
-        name: DBSubnetGroupDescription
-        description: The description for the DB subnet group
-        type: string
-      - in: query
-        name: DBSubnetGroupName
-        description: The name for the DB subnet group
-        type: string
-      - in: query
-        name: SubnetIds.SubnetIdentifier.N
-        description: The EC2 subnet IDs for the DB subnet group
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Subnet Groups
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
